@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+httpx
+langchain
+langchain-openai
+pydantic
+openai
+typing-extensions
+python-multipart
+pillow
+tavily-python
+numpy
+pandas
+langgraph
