@@ -86,6 +86,7 @@ class Exercise(BaseModel):
 
 
 class WorkoutSegment(BaseModel):
+    name: str
     motto: str
     exercises: List[Exercise]
     mark_complete: bool = False
