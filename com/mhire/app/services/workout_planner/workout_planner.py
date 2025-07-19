@@ -254,21 +254,21 @@ class WorkoutPlanner:
                 day=f"Day {day}",
                 focus=focus,
                 warm_up=WorkoutSegment(
-                    name="warm_up",
+                    name="Warm-up",
                     motto="Keep moving—you've got this.",
                     exercises=workout_data["warm_up"],
                     duration=warm_up_duration,
                     video_url=None
                 ),
                 main_routine=WorkoutSegment(
-                    name="main_routine",
+                    name="Main Routine",
                     motto="You're doing awesome—keep the energy up.",
                     exercises=workout_data["main_routine"],
                     duration=main_routine_duration,
                     video_url=None
                 ),
                 cool_down=WorkoutSegment(
-                    name="main_routine",
+                    name="Cool Down",
                     motto="Breathe in peace—breathe out strength.",
                     exercises=workout_data["cool_down"],
                     duration=cool_down_duration,
